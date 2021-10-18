@@ -1,0 +1,83 @@
+.believe-it-imgs {
+    display: flex;
+    flex-flow: row;
+}
+
+.believe-it-items{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.believe-content{
+    flex-direction: column;
+    text-align: center;
+}
+
+.believe-content button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 3px;
+}
+
+/** Banners Section**/
+
+.Banners-imgs {
+    margin-top: 2%;
+    display: flex;
+    flex-flow: row;
+}
+
+.Banners-items{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.Banners-content{
+    flex-direction: column;
+    text-align: center;
+}
+
+.Banners-content p{
+    margin: 10px 10px;
+}
+
+.btn-banners button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 3px;
+}
+
+/** Season Section **/
+.for-all-season{
+    margin-top: 2%;
+    display: flex;
+    align-items: flex-start;
+    background: url('../../public/images/calltoaction.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.Season-content {
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: var(--white);
+}
+
+.Season-content h1,p{
+    text-shadow: 1px 1px 2px rgb(87, 87, 87);
+}
+
+.btn-season button{
+    padding: 10px 20px;
+    margin: 10px 0px;
+    background-color: var(--white);
+    color: var(--primary-color);
+    border-radius: 3px;
+}

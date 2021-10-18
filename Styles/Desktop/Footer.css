@@ -1,0 +1,16 @@
+.footer-hero{
+    height: 170px;
+    background-color: var(--third-color);
+}
+.footer-items{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.footer-items a {
+    text-decoration: none;
+    margin: 10px 10px;
+    color: var(--white);
+}
