@@ -1,0 +1,38 @@
+
+@media all and (max-width:500px){
+
+    .believe-it-imgs {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .believe-it-imgs img {
+        width: 90%;
+        height: auto;
+    }
+
+    .Banners-imgs {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .Banners-imgs img {
+        width: 90%;
+        height: auto;
+    }
+
+    .Banners-imgs img:nth-child(2) {
+        display: none;
+    }
+
+    .Banners-content p{
+        margin: 10px 10px;
+        font-size: 15px;
+    }
+
+
+    .for-all-season {
+        height: 400px;
+    }
+}

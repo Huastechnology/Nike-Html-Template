@@ -25,4 +25,11 @@ header, section, footer {
     max-width: 1200px;
     margin: auto;
 }
+
+@media all and (max-width: 400px) {
+    header, section, footer {
+        max-width: 375px;
+        margin: auto;
+    }
+}
   
