@@ -1,0 +1,28 @@
+/* config vars*/
+:root {
+    --primary-color: black;
+    --white: #fff;
+    --secondary-color: #e6e6e6;
+    --third-color: #222222;
+    --fifth-color: #d6d6d6;
+  }
+
+/** Base Styles **/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: var(--primary-color);
+    font-family: 'Nunito Sans', sans-serif;
+    min-height: 100vh;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+header, section, footer {
+    max-width: 1200px;
+    margin: auto;
+}
+  

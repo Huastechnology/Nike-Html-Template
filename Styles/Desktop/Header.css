@@ -1,0 +1,45 @@
+
+
+.nav-top{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.nav-top a{
+    font-size: 15px;
+}
+
+.container-row{
+    margin-top: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    text-decoration: none;
+    gap: 4px;
+}
+
+.Navbar-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 1px solid var(--secondary-color);
+    
+}
+
+.Navbar-item a{
+    text-decoration: none;
+    padding:  0px 25px;
+}
+
+.nav-right-side {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+}
+
+.nav-right-side a {
+    text-decoration: none;
+}
+
