@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
 
-
+/** Barra de navegacion superior **/
 .nav-top{
     display: flex;
     flex-flow: row wrap;
@@ -27,6 +28,7 @@
 }
 
 .Navbar-item a{
+    color: var(--primary-color);
     text-decoration: none;
     padding:  0px 25px;
 }
@@ -40,6 +42,44 @@
 }
 
 .nav-right-side a {
+    color: var(--primary-color);
     text-decoration: none;
 }
 
+
+/** Barra de navegacion inferior **/
+
+.nav-bottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.Navigation-bottom{
+    display: flex;
+    gap: 4px;
+}
+
+.nav-bottom img{
+    height: 50%;
+}
+
+.Navigation-bottom a{
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--primary-color);
+    text-decoration: none;
+    flex-direction: row wrap;
+    padding: 0px 20px;
+    margin: 20px 0px;
+    font-size:  13px;
+    justify-content: center;
+    text-align: center;
+}
+
+.search-field input{
+    padding: 0px 10px;
+    margin: 10px 0px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid var(--secondary-color);
+}
